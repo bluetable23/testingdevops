@@ -49,21 +49,21 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 sed diam nonumy eirmod tempor invidunt ut labore et dolore
 magna aliquyam erat, sed diam voluptua.
 
-![Image registrieren](frontend/src/assets/todo_liste.jpg)
+![Image registrieren](frontend/src/assets/todo_liste.png)
 
 ### ToDo erstellen
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 sed diam nonumy eirmod tempor invidunt ut labore et dolore
 magna aliquyam erat, sed diam voluptua.
 
-![Image startseite](frontend/src/assets/neue_todo.jpg)
+![Image startseite](frontend/src/assets/neue_todo.png)
 
 ### ToDo bearbeiten
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 sed diam nonumy eirmod tempor invidunt ut labore et dolore
 magna aliquyam erat, sed diam voluptua.
 
-![Image startseite](frontend/src/assets/todo_bearbeiten.jpg)
+![Image startseite](frontend/src/assets/todo_bearbeiten.png)
 
 ### ToDo als erledigt markieren
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
@@ -81,7 +81,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
 sed diam nonumy eirmod tempor invidunt ut labore et dolore
 magna aliquyam erat, sed diam voluptua.
 
-![Image startseite](frontend/src/assets/alle_nutzerinnen.jpg)
+![Image startseite](frontend/src/assets/alle_nutzerinnen.png)
 
 ## Technologien
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
