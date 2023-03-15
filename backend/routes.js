@@ -70,6 +70,10 @@ router.patch('/todos/:id', async(req, res) => {
             todo.frist = req.body.frist
         }
 
+        if (req.body.erledigt) {
+            todo.erledigt = req.body.erledigt
+        }
+
         await Todo.updateOne({ _id: req.params.id }, todo);
         res.send(todo)
     } catch {

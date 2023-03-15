@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const schema = new mongoose.Schema({    
     aufgabe: String,
     beschreibung: String,
-    frist : String
+    frist : String,
+    erledigt: Boolean
 });
 // Schema wird durch Aufruf des Konstruktors new Schema() erstellt
 

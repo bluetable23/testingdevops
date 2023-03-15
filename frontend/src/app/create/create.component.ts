@@ -20,7 +20,7 @@ export class CreateComponent {
     this.form = new FormGroup({
       aufgabeControl: new FormControl(''),
       beschreibungControl: new FormControl(''),
-      fristControl: new FormControl('')
+      fristControl: new FormControl(''),
     });
   }
   // ngOnInit() wird aufgerufen, wenn die Komponente initialisert wird
@@ -34,7 +34,8 @@ export class CreateComponent {
       aufgabe: values.aufgabeControl!,
       beschreibung: values.beschreibungControl!,
       frist: values.fristControl!,
-      _id: ''
+      _id: '',
+      erledigt: values.erledigtControl!
     }; // Verwendung der Werte um neues Todo-Objekt zuerstellen, das an die backendService.create übergeben wird
 
     // Hier habe ich eine Funktion hinzugefügt, die überprüft, ob mindestens 1 Eingabefeld ausgefüllt ist, sonst würde man eine leere ToDo speichern

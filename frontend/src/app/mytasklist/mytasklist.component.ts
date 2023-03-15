@@ -69,4 +69,15 @@ export class MytasklistComponent implements OnInit {
   ClickEvent() {
     this.router.navigate(['/todo']);
   }
+
+  // Checkbox-Fkt.
+  erledigt(todo: Todo) {
+    todo.erledigt = !todo.erledigt;
+    this.bs.update(todo._id, todo).subscribe(() => {
+      console.log('erledigt wurde aktualisiert'); // dient nur der Kontrolle
+    });
+  }
+  // Z.74: übergeben Todo Objekt, dessen Checkbox angeklickt wird
+  // Z.75: todo.erledigt wird durch Negation geändert, also aus true wird false und umgekehrt
+  // Z.76: update()-Fkt. von BackendService wird aufgerufen, um Daten an den Server zu senden und die DB zu aktualisieren
 }

@@ -12,11 +12,12 @@ import { Todo } from '../shared/todo';
 })
 export class DetailComponent implements OnInit {
   id: string = '';
-  todo: Todo = {aufgabe: '', beschreibung: '', frist: '', _id: ''}; // Hinzugefügte Zeile zur Initialisierung von `todo`
+  todo: Todo = {aufgabe: '', beschreibung: '', frist: '', _id: '', erledigt: false}; // Hinzugefügte Zeile zur Initialisierung von `todo`
   form = new FormGroup({
     aufgabeControl : new FormControl<string>(''),
     beschreibungControl: new FormControl<string>(''),
     fristControl: new FormControl<string>(''),
+    erledigtControl: new FormControl<boolean>(false) // standardmäßig auf false
 });
 // form zeigt auf das Formular (bestehend aus FormControl-Elementen, erzeugen diese Elemente in den Z. 16-19 (mit String typisiert)
 
@@ -43,6 +44,7 @@ export class DetailComponent implements OnInit {
                   aufgabeControl: this.todo?.aufgabe,
                   beschreibungControl: this.todo?.beschreibung,
                   fristControl: this.todo?.frist,
+                  erledigtControl: this.todo?.erledigt
                 })
                 return this.todo;
         },
@@ -60,6 +62,7 @@ export class DetailComponent implements OnInit {
     this.todo.aufgabe = values.aufgabeControl!;
     this.todo.beschreibung = values.beschreibungControl!;
     this.todo.frist = values.fristControl!;
+    this.todo.erledigt = this.form.value.erledigtControl!;
     this.bs.update(this.id, this.todo)
       .subscribe({
         next: (response) => {

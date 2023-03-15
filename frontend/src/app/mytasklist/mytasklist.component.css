@@ -9,3 +9,13 @@ table {
 th, td {
   padding: 10px;
 }
+
+.box {
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}

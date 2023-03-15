@@ -3,6 +3,7 @@ export interface Todo {
   aufgabe: string;
   beschreibung: string;
   frist: string;
+  erledigt: boolean;
 }
 
 // Interface für unsere Daten im Sinne der Typsicherheit, um ihn als Typ zu verwenden
