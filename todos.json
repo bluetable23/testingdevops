@@ -1,0 +1,99 @@
+[
+    {
+      "_id": {
+        "$oid": "64022209c16e5a860c132e0c"
+      },
+      "aufgabe": "Wocheneinkauf erledigen",
+      "beschreibung": "Hafermilch, Brot, Eier, Tomaten, Kartoffeln, Nudeln kaufen",
+      "frist": "05.03.2023",
+      "erledigt": false
+    },
+    {
+      "_id": {
+        "$oid": "64022209c16e5a860c132e0d"
+      },
+      "aufgabe": "Sport machen",
+      "beschreibung": "Workout aus: 20 Min. Seilspringen, 30 Min. Joggen, 10 Min. Treppenlaufen",
+      "frist": "05.03.2023",
+      "erledigt": false
+    },
+    {
+      "_id": {
+        "$oid": "64022209c16e5a860c132e10"
+      },
+      "aufgabe": "Hausarzt anrufen",
+      "beschreibung": "Testergebnisse erfragen, neuen Termin vereinbaren",
+      "frist": "08.03.2023 ",
+      "erledigt": false
+    },
+    {
+      "_id": {
+        "$oid": "64022209c16e5a860c132e12"
+      },
+      "aufgabe": "WebTech beenden",
+      "beschreibung": "README schreiben, Deployment, Code kommentieren",
+      "frist": "08.03.2023",
+      "erledigt": false
+    },
+    {
+      "_id": {
+        "$oid": "64022209c16e5a860c132e13"
+      },
+      "aufgabe": "Zimmer ausräumen",
+      "beschreibung": "Kommode auf Ebay abbauen, Kleidung ausmisten, Regale leeren",
+      "frist": "09.03.2023",
+      "erledigt": false
+    },
+    {
+      "_id": {
+        "$oid": "640a4adbe9e9e7a6e29efd5f"
+      },
+      "aufgabe": "Oma besuchen",
+      "beschreibung": "Zugticket nach Berlin buchen, Geschenk für Oma einpacken",
+      "frist": "10.03.2023",
+      "erledigt": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640b56ef666e4e24645d81cf"
+      },
+      "aufgabe": "Zum Optiker gehen",
+      "beschreibung": "Sehtest machen, Kontaktlinsen bestellen",
+      "frist": "12.03.2023",
+      "erledigt": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640b5fff666e4e24645d821f"
+      },
+      "aufgabe": "Zum Baumarkt fahren",
+      "beschreibung": "in der Gartenabteilung nach neuen Pflanzen schauen",
+      "frist": "20.03.2023",
+      "erledigt": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640c9e6f1a729c69ff8cf0de"
+      },
+      "aufgabe": "Grillparty",
+      "beschreibung": "Grill besorgen, Deko kaufen, Einkaufsliste schreiben, Einladungen verschicken, Rasen mähen",
+      "frist": "04.04.2023",
+      "erledigt": false,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "640dc4566e3372cc23045f4e"
+      },
+      "aufgabe": "Abschlussarbeit beginnen",
+      "beschreibung": "Recherche starten, Drucker reparieren, Papier kaufen",
+      "frist": "10.04.2023",
+      "erledigt": false,
+      "__v": 0
+    }
+  ]
+  
+  

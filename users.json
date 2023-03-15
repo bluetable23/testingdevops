@@ -1,0 +1,102 @@
+[
+    {
+        "_id": {
+          "$oid": "640b5431666e4e24645d81a0"
+        },
+        "username": "anton2cool",
+        "password": "$2b$10$4nxKRKTaGdwbxHY/bovxIuYWhqfXqMcV759WjBekUzFl3Yy8Gtk5y",
+        "email": "anton@yahoo.com",
+        "role": "admin",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b54f7666e4e24645d81a9"
+        },
+        "username": "LinoDerDino",
+        "password": "$2b$10$LBI4vbuW4r.2YWzTwcAcAuobuXLHKutUWuGjgWNeREybb/iWRkX6W",
+        "email": "linD4@yahoo.com",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b553c666e4e24645d81af"
+        },
+        "username": "Nia_2001",
+        "password": "$2b$10$i7K49gGqu/sjbp7g.5cRGezx6qIizsIw3NHs0EuOQS64rAiKy6vd6",
+        "email": "nia2001@gmx.de",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b5578666e4e24645d81b3"
+        },
+        "username": "KeksMonster",
+        "password": "$2b$10$CCrX4bC5B0PAr0S1BiFpJu8blRtEtm36jWVWjAfPN9dUhQWcvPjVO",
+        "email": "Cookies4U@gmail.com",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b55b9666e4e24645d81b7"
+        },
+        "username": "SelenaG",
+        "password": "$2b$10$XKeQS9S4s5xd2xusy5B/2.Tzpfv4Mnv47t4IdHx6VMXTTbtQzKN9.",
+        "email": "Gomez1423@gmail.com",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b5609666e4e24645d81bb"
+        },
+        "username": "MaxMustermann",
+        "password": "$2b$10$.CA1XcTCnYIUAi0pE5drguN.eprfy8PpB/hDIcpK4FZwV42XG6ZOG",
+        "email": "MaxiTaxi123@yahoo.de",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b5625666e4e24645d81bf"
+        },
+        "username": "Bunny",
+        "password": "$2b$10$SacZ9EiBtcQI1BXhoR9BLeOygXK18Ml/3JeNW0p1s1knhs6gBD6dW",
+        "email": "SunnyBunny01@gmail.com",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640b5659666e4e24645d81c3"
+        },
+        "username": "AnnaB",
+        "password": "$2b$10$i33gn7I2cT2zkmYSNYWlReIE4DbMgON.mZfLNpdpzXdmq2mcb8zgi",
+        "email": "AnnaB1990@gmx.de",
+        "role": "user",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640ca1f21a729c69ff8cf111"
+        },
+        "username": "Lin",
+        "password": "$2b$10$7ERkWqwchp.PNsK9AMxeVe7L.FcXWPfeJaBe1BxBvP78n/8tszk5O",
+        "email": "Test123@yahoo.de",
+        "role": "admin",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "640dd36df8a60affb315695e"
+        },
+        "username": "totoro",
+        "password": "$2b$10$SaCUxu5DIlSENX2uK9UJ3uEUqur3icCivwJnCFyssA0tuO1zHmB6i",
+        "email": "toto123@yahoo.com",
+        "role": "user",
+        "__v": 0
+      }
+]
