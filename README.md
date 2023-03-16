@@ -89,10 +89,10 @@ Die Anwendung ist unkompliziert über folgenden Link aufrufbar:
 Lokal lässt sich die Anwendung wie folgt installieren: 
 Das Repository mit git clone https://github.com/linlanwi/WT22.git clonen, in den backend-Ordner wechseln
 und den Befehl 
-npm run watch 
+`npm run watch`
 ausführen.
 Anschließend in den frontend-Ordner wechseln und mit
-ng serve 
+`ng serve`
 starten.
 Die Anwendung lässt sich nun in einem Browser unter http://localhost:4200 aufrufen.
 
