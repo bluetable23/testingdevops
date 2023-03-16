@@ -17,7 +17,7 @@ Repository von QuyNy Hoang und Lin Lan Wi Nguyen für die Semesteraufgabe.
 
 ## Allgemeine Information
 
-ToDoodle ist eine einfache Anwendung zum Hinzufügen und Verwalten von täglichen Aufgaben. Unabhängig von persönlichen oder beruflichen Aufgaben, mit ToDoodle verlieren Sie nie wieder den Überblick über anstehende Aufgaben. Fügen Sie Aufgaben wie „Sport machen“ hinzu und füllen Sie Ihre To-do-Liste in Sekundenschnelle. Außerdem bietet die Anwendung eine einfache Bedienung, damit Sie Ihre Aufgaben einfach aktualisieren, entfernen und abhaken können.
+ToDoodle ist eine einfache Anwendung zum Hinzufügen und Verwalten von täglichen Aufgaben. Unabhängig von persönlichen oder beruflichen Aufgaben, mit ToDoodle verlieren Sie nie wieder den Überblick über anstehende Aufgaben. Fügen Sie Aufgaben wie „Sport machen“ hinzu und füllen Sie Ihre To-Do-Liste in Sekunden schnelle. Außerdem bietet die Anwendung eine einfache Bedienung, damit Sie Ihre Aufgaben einfach aktualisieren, entfernen und abhaken können.
 
 ## Informationen zur Anwendung
 
@@ -47,12 +47,12 @@ Mit dem Buttonklick auf „Neue ToDo erstellen“ kann der/die UserIn eine neue 
 ![Image neue todo](frontend/src/assets/neue_todo.png)
 
 ### ToDo bearbeiten
-Unter „Optionen“ befindet sich ein Notiz-Icon. Bei Betätigen dieses Icons erscheint ein neues Fenster, in der die ToDo, die Beschreibung und das Fälligkeitsdatum aktualisiert werden kann. 
+Unter „Optionen“ befindet sich ein Stift-Icon. Bei Betätigen dieses Icons erscheint ein neues Fenster, in der die ToDo, die Beschreibung und das Fälligkeitsdatum aktualisiert werden können. 
 
 ![Image todo bearbeiten](frontend/src/assets/todo_bearbeiten.png)
 
 ### ToDo löschen
-Des Weiteren befindet sich unter „Optionen“ ein roter Mülleimer-Icon.
+Des Weiteren befindet sich unter „Optionen“ ein rotes Mülleimer-Icon.
 Bei Klick dieses Icons wird der Eintrag gelöscht und der/die User wird über die erfolgreiche Entfernung informiert.
 
 ![Image todolöschen](frontend/src/assets/todo_loeschen_bestätigung.png)
@@ -74,13 +74,13 @@ Für die Entwicklung dieser Anwendung wurden folgende Technologien verwendet:
 
 Entwicklungsumgebung: Visual Studio Code und IntelliJ
 
-Backend: Node.js, Postman
+Backend: Node.js (Node: 16.18.0)
 
-Datenbank: MongoDB, MongoDB Compass
+Datenbank: MongoDB
 
-Frontend: Angular
+Frontend: Angular (Angular CLI: 15.0.0)
 
-Framework: Bootstrap
+CSS-Framework: Bootstrap (Version 5.3.2), Material Design
 
 Versionskontrolle: GitHub
 
