@@ -9,34 +9,26 @@ Repository von QuyNy Hoang und Lin Lan Wi Nguyen für die Semesteraufgabe.
     - [ToDo-Liste](#todo-liste)
     - [ToDo erstellen](#todo-erstellen)
     - [ToDo bearbeiten](#todo-bearbeiten)
-    - [ToDo als erledigt markieren](#todo-als-erledigt-markieren)
     - [ToDo löschen](#todo-löschen)
+    - [ToDo als erledigt markieren](#todo-als-erledigt-markieren)
     - [Alle Nutzerinnen](#alle-nutzerinnen)
 3. [Technologien](#technologien)
 4. [Installation](#installation)
 
 ## Allgemeine Information
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+ToDoodle ist eine einfache Anwendung zum Hinzufügen und Verwalten von täglichen Aufgaben. Unabhängig von persönlichen oder beruflichen Aufgaben, mit ToDoodle verlieren Sie nie wieder den Überblick über anstehende Aufgaben. Fügen Sie Aufgaben wie „Sport machen“ hinzu und füllen Sie Ihre To-do-Liste in Sekundenschnelle. Außerdem bietet die Anwendung eine einfache Bedienung, damit Sie Ihre Aufgaben einfach aktualisieren, entfernen und abhaken können.
 
 ## Informationen zur Anwendung
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
 
 ### Startseite
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Bei Aufruf der Anwendung, erscheint als erstes die Startseite mit einer Menüspalte und einem Login- und Registrierungsbutton. 
 
 ![Image startseite](frontend/src/assets/startseite.png)
 
 ### Registrieren und Einloggen
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Auf der Startseite oder unter den Menüpunkten hat der/die UserIn die Wahl sich zu registrieren oder einzuloggen. 
+Je nach Entscheidung, wird entweder ein Formular zur Registrierung oder zum Login angezeigt, in dem Nutzerdaten eingegeben werden müssen.
 
 
 ![Image registrieren](frontend/src/assets/registrieren.png)
@@ -45,52 +37,56 @@ magna aliquyam erat, sed diam voluptua.
 ![Image einloggen](frontend/src/assets/einloggen.png)
 
 ### ToDo-Liste
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Bei erfolgreichem Login wird die persönliche To-Do-Liste des Users angezeigt. Dort werden die ToDos numerisch aufgelistet. Zusätzlich werden die Beschreibungen, die Fälligkeitsdaten und Bearbeitungsoptionen angezeigt.
 
-![Image registrieren](frontend/src/assets/todo_liste.png)
+![Image todoliste](frontend/src/assets/todoliste_1.png)
 
 ### ToDo erstellen
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Mit dem Buttonklick auf „Neue ToDo erstellen“ kann der/die UserIn eine neue ToDo erstellen. Es erscheint ein neues Fenster, in der die ToDo mit dem Aufgabentitel, einer Beschreibung und einer Frist spezifiziert werden kann.
 
-![Image startseite](frontend/src/assets/neue_todo.png)
+![Image neue todo](frontend/src/assets/neue_todo.png)
 
 ### ToDo bearbeiten
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Unter „Optionen“ befindet sich ein Notiz-Icon. Bei Betätigen dieses Icons erscheint ein neues Fenster, in der die ToDo, die Beschreibung und das Fälligkeitsdatum aktualisiert werden kann. 
 
-![Image startseite](frontend/src/assets/todo_bearbeiten.png)
-
-### ToDo als erledigt markieren
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+![Image todo bearbeiten](frontend/src/assets/todo_bearbeiten.png)
 
 ### ToDo löschen
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Des Weiteren befindet sich unter „Optionen“ ein roter Mülleimer-Icon.
+Bei Klick dieses Icons wird der Eintrag gelöscht und der/die User wird über die erfolgreiche Entfernung informiert.
 
+![Image todolöschen](frontend/src/assets/todo_loeschen_bestätigung.png)
+
+### ToDo als erledigt markieren
+Unter „Erledigt?“ kann die ToDo als erledigt markiert werden. 
+Daraufhin wird der weiße Kasten blau markiert und ein Haken raufgesetzt.
+
+![Image todo abhaken](frontend/src/assets/todo_abhaken.png)
 
 ### Alle Nutzerinnen
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Unter dem Menüpunkt „Alle Nutzerinnen“ ist der/die Admin dazu befugt, sich die Liste aller registrierten UserInnen anzeigen lassen. Außerdem wird der Zugriff verweigert, wenn ein/e UserIn versucht, auf „alle Nutzerinnen“ zu gelangen. 
 
-![Image startseite](frontend/src/assets/alle_nutzerinnen.png)
+![Image alle nuterinnen](frontend/src/assets/alle_nutzerinnen.png)
 
 ## Technologien
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+
+Für die Entwicklung dieser Anwendung wurden folgende Technologien verwendet:
+
+Entwicklungsumgebung: Visual Studio Code und IntelliJ
+
+Backend: Node.js, Postman
+
+Datenbank: MongoDB, MongoDB Compass
+
+Frontend: Angular
+
+Framework: Bootstrap
+
+Versionskontrolle: GitHub
 
 ## Installation
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore et dolore
-magna aliquyam erat, sed diam voluptua.
+Die Anwendung ist unkompliziert über folgenden Link aufrufbar: 
+[ToDoodle](https://deployfrontend-git-master-linlanwi.vercel.app/)
+
 
 
