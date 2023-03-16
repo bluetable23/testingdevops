@@ -72,11 +72,11 @@ Unter dem Menüpunkt „Alle Nutzerinnen“ ist der/die Admin dazu befugt, sich 
 
 Für die Entwicklung dieser Anwendung wurden folgende Technologien verwendet:
 
-Entwicklungsumgebung: Visual Studio Code und IntelliJ
-Backend: Node.js (Node: 16.18.0)
-Datenbank: MongoDB
-Frontend: Angular (Angular CLI: 15.0.0)
-CSS-Framework: Bootstrap (Version 5.3.2), Material Design
+Entwicklungsumgebung: Visual Studio Code und IntelliJ &nbsp;
+Backend: Node.js (Node: 16.18.0) &nbsp;
+Datenbank: MongoDB &nbsp;
+Frontend: Angular (Angular CLI: 15.0.0) &nbsp;
+CSS-Framework: Bootstrap (Version 5.3.2), Material Design &nbsp;
 Versionskontrolle: GitHub
 
 Weitere Pakete und Abhängigkeiten finden sich in den Package.json-Dateien.
@@ -88,12 +88,12 @@ Die Anwendung ist unkompliziert über folgenden Link aufrufbar:
 
 Lokal lässt sich die Anwendung wie folgt installieren: 
 Das Repository mit git clone https://github.com/linlanwi/WT22.git clonen, in den backend-Ordner wechseln
-und den Befehl 
-`npm run watch`
-ausführen.
-Anschließend in den frontend-Ordner wechseln und mit
-`ng serve`
-starten.
+und den Befehl &nbsp;
+`npm run watch` &nbsp;
+ausführen. &nbsp;
+Anschließend in den frontend-Ordner wechseln und mit &nbsp;
+`ng serve`&nbsp;
+starten. &nbsp;
 Die Anwendung lässt sich nun in einem Browser unter http://localhost:4200 aufrufen.
 
 
