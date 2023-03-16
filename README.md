@@ -87,13 +87,12 @@ Die Anwendung ist unkompliziert über folgenden Link aufrufbar:
 [ToDoodle](https://deployfrontend-git-master-linlanwi.vercel.app/)
 
 Lokal lässt sich die Anwendung wie folgt installieren:   
+Vorausgesetzt wird das MongoDB installiert ist und die Daten per Skript eingebunden werden.   
 Das Repository mit git clone https://github.com/linlanwi/WT22.git clonen, in den backend-Ordner wechseln
-und den Befehl  
+und den Befehl ausführen:   
 `npm run watch`  
-ausführen.  
-Anschließend in den frontend-Ordner wechseln und mit  
-`ng serve`  
-starten.  
+Anschließend in den frontend-Ordner wechseln und starten mit    
+`ng serve`   
 Die Anwendung lässt sich nun in einem Browser unter http://localhost:4200 aufrufen.
 
 
