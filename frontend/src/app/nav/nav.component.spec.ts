@@ -7,6 +7,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NavComponent } from './nav.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from "../shared/auth.service";
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('NavComponent', () => {
   let component: NavComponent;
@@ -23,7 +26,10 @@ describe('NavComponent', () => {
         MatListModule,
         MatSidenavModule,
         MatToolbarModule,
-      ]
+        HttpClientModule,
+        RouterTestingModule,
+      ],
+      providers: [ AuthService ]
     }).compileComponents();
   }));
 

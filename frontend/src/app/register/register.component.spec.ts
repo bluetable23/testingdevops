@@ -7,6 +7,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { RegisterComponent } from './register.component';
+import { AuthService } from "../shared/auth.service";
+import { HttpClientModule } from "@angular/common/http";
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
 
 describe('RegisterComponent', () => {
   let component: RegisterComponent;
@@ -23,7 +27,11 @@ describe('RegisterComponent', () => {
         MatInputModule,
         MatRadioModule,
         MatSelectModule,
-      ]
+        HttpClientModule,
+        MatDialogModule,
+        MatIconModule
+      ],
+      providers: [ AuthService ]
     }).compileComponents();
   }));
 

@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MytasklistComponent } from './mytasklist.component';
+import { HttpClientModule } from "@angular/common/http";
 
 describe('MytasklistComponent', () => {
   let component: MytasklistComponent;
@@ -7,6 +8,7 @@ describe('MytasklistComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [HttpClientModule],
       declarations: [ MytasklistComponent ]
     })
     .compileComponents();
@@ -19,4 +21,5 @@ describe('MytasklistComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });

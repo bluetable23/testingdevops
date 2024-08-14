@@ -4,6 +4,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { UserlistComponent } from './userlist.component';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('UserlistComponent', () => {
   let component: UserlistComponent;
@@ -17,6 +18,7 @@ describe('UserlistComponent', () => {
         MatPaginatorModule,
         MatSortModule,
         MatTableModule,
+        HttpClientTestingModule
       ]
     }).compileComponents();
   }));
