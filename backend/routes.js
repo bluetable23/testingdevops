@@ -2,10 +2,12 @@ const express = require('express'); // const für Deklaration von Konstanten
 const router = express.Router();
 const Todo = require('./models/todos'); // binden Todo-Model ein
 
+module.exports = router;
+
 // -------------------- CRUD --------------------
 // (READ) get all members
-router.get('/todos', async(req, res) => {
-    const allTodos = await Todo.find(); 
+router.get('/todos', async (req, res) => {
+    const allTodos = await Todo.find();
     console.log(allTodos);
     res.send(allTodos);
 });
@@ -24,11 +26,12 @@ router.get('/todos', async(req, res) => {
 module.exports = router;
 
 // (CREATE) post one member
-router.post('/todos', async(req, res) => {
+router.post('/todos', async (req, res) => {
     const newTodo = new Todo({
         aufgabe: req.body.aufgabe,
         beschreibung: req.body.beschreibung,
-        frist: req.body.frist
+        frist: req.body.frist,
+        erledigt: req.body.erledigt
     })
     await newTodo.save();   // save()-Fkt. schreibt/speichert Datensatz in die DB
     res.send(newTodo);
@@ -37,26 +40,26 @@ router.post('/todos', async(req, res) => {
 // Z.34: response wird zurückgeschickt
 
 // (READ ONE) get one member via id
-router.get('/todos/:id', async(req, res) => {
-    try {
-        const todo = await Todo.find({ _id: req.params.id });
-        console.log(req.params);
-        res.send(todo[0]);
-    } catch {
+router.get('/todos/:id', async (req, res) => {
+    const todo = await Todo.findOne({_id: req.params.id});
+    if (todo) {
+        res.send(todo)
+    } else {
         res.status(404);
         res.send({
             error: 'ToDo does not exist'
         })
     }
+
 })
 // Z.42: um Wert (also die Daten der Todo) des Parameters id aus der Parameterliste auszulesen wird params verwendet
 // existiert id, dann wird dieser in response zurückgesendet
 // existiert er nicht: Statuscode 404 & Error-Nachricht
 
 // (UPDATE) update one member
-router.patch('/todos/:id', async(req, res) => {
+router.patch('/todos/:id', async (req, res) => {
     try {
-        const todo = await Todo.findOne({ _id: req.params.id })
+        const todo = await Todo.findOne({_id: req.params.id})
 
         if (req.body.aufgabe) {
             todo.aufgabe = req.body.aufgabe
@@ -70,15 +73,13 @@ router.patch('/todos/:id', async(req, res) => {
             todo.frist = req.body.frist
         }
 
-        if (req.body.erledigt) {
-            todo.erledigt = req.body.erledigt
-        }
+        todo.erledigt = req.body.erledigt
 
-        await Todo.updateOne({ _id: req.params.id }, todo);
+        await Todo.updateOne({_id: req.params.id}, todo);
         res.send(todo)
     } catch {
         res.status(404)
-        res.send({ error: "ToDo does not exist!" })
+        res.send({error: "ToDo does not exist!"})
     }
 });
 // für Update HTTP-Anfragemethode Patch
@@ -87,17 +88,16 @@ router.patch('/todos/:id', async(req, res) => {
 // die zu ändernden Werte werden als ein JSON dem body des request-Objektes übergeben
 
 // (DELETE) delete one member via id
-router.delete('/todos/:id', async(req, res) => {
+router.delete('/todos/:id', async (req, res) => {
     try {
-        await Todo.deleteOne({ _id: req.params.id })
+        await Todo.deleteOne({_id: req.params.id})
         res.status(204).send()
     } catch {
         res.status(404)
-        res.send({ error: "ToDo does not exist!" })
+        res.send({error: "ToDo does not exist!"})
     }
 });
 // Datensatz wird über _id ermittelt und dafür erneut die parametrisierte URL ausgelesen
-
 
 
 //------------------------- Allgemeines zu Route.js -------------------------------------------

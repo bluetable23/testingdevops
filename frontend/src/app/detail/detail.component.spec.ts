@@ -19,6 +19,8 @@ class MockBackendService {
     }).asObservable();
   }
 }
+// BehaviorSUbject empfängt (wie ein Observer) und versendet auch Daten (wie ein Observable)
+// emittiert den letzten Wert an neue Abonnenten (auch wenn dieser Wert vor dem Zeitpunkt des Abonnierens gesendet wurde)
 
 describe('DetailComponent', () => {
   let component: DetailComponent;
